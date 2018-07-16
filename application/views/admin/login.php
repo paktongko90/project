@@ -1,5 +1,5 @@
-<form method="post" action="">
+<?php echo form_open('admin/login/action'); ?>
 	<input type="text" name="username" placeholder="Username"><br>
-	<input type="passowrd" name="password" placeholder="Password"><br>
+	<input type="password" name="password" placeholder="Password"><br>
 	<input type="submit" name="Submit">
-</form>
+<?php echo form_close(); ?>
