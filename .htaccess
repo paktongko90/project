@@ -1,4 +1,4 @@
-RewriteEngine On
+RewriteEngine Off
 
 SetEnvIf Host http://faizulbaba.net$ CI_ENV=production
 SetEnvIf Host localhost$ CI_ENV=development
